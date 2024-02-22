@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62,5%;
+    font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.307);
+}
+
+
+.logo-header{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.menu{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: black;
+}
+
+.cadastro-carrinho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.cadastro-carrinho i{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.cadastro-carrinho img{
+    width: 33px;
+}
+
+.cadastro-carrinho button{
+    display: none;
+}
+
+/* banner  */
+
+.container{
+    width: 100%;
+    height: 80vh;
+}
+
+.banner{
+    width: 100%;
+    height: 65vh;
+    background: url(imagens/Papel\ de\ parede\ para\ computador\ astronauta\ galáxia\ preto\ e\ branco\ \(1\).png) no-repeat;
+    box-sizing: cover;
+    background-position: 69%;
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-texto{
+    width: 50%;
+    margin-left: 250px;
+}
+
+.banner-texto h2{
+    font-weight: 500;
+    font-size: 7rem;
+    margin-bottom: 10px;
+}
+
+.banner-texto p{
+    font-size: 2.7rem;
+    margin-bottom: 40px;
+}
+
+.banner-texto button{
+    width: 300px;
+    height: 70px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.banner-texto button:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+.informacao{
+    width: 90%;
+    max-width: 2000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.informacao span{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 18px;
+    color: rgb(74, 74, 74);
+}
+
+.informacao p{
+    font-size: 1.3rem;
+    margin-left: 20px;
+    color: rgb(74, 74, 74);
+}
+
+.informacao i{
+    font-size: 6rem;
+    margin-bottom: 10px;
+    font-weight: 100;
+    margin-top: 15px;
+    color:rgb(74, 74, 74);
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.categorias{
+    width: 90%;
+    max-width: 2100;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.box-categoria{
+    width: 45%;
+    height: 400px;
+    border-radius: 5px;
+    background-color: grey;
+}
+.maisVendidos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.maisVendidos h2{
+    font-size: 2.5rem;
+}
+
+.maisVendidos button{
+    margin-top: 70px;
+    width: 200px;
+    height: 60px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.container-produto{
+    display: flex;
+    width: 90%;
+    max-width: 2100px;
+    margin: auto;
+    margin-top: 60px;
+    gap: 50px;
+}
+
+.imagem-produto{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.imagem-produto img{
+    width: 90%;
+}
+
+.produtos{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgba(128, 128, 128, 0.436);
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.152);
+}
+
+.produtos h1{
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.produtos p{
+    color: grey;
+    font-size: 1.4rem;
+}
+
+.preco-produto-desconto {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.preco-produto-desconto span{
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.preco-produto-desconto div{
+    width: 100px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border: 2px solid;
+}
+
+.valor-produto{
+    margin-left: 15px;
+}
+
+.valor-produto p{
+    text-decoration: line-through;
+}
+
+#p2-produto{
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.produtos:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+.maisVendidos button:hover{
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+.banner-meio {
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.banner-meio img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.relatos{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.box-relatos img{
+    width: 400px;
+    margin-top: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+
+.estrelas{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+.estrelas i{
+    padding: 5px;
+}
+.box-relatos p{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+.box-relatos{
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.353);
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.152);
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 20px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+footer a{
+    color: white;
+    font-size: 1.7rem;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+footer span{
+    font-size: 2.3rem;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.container-foter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-foter{
+    width: 460px;
+    height: 100px;
+    /* background-size: cover; */
+    background-image: url(imagens/Black\ White\ Minimalist\ Logoblack.jpg);
+    margin: 0;
+}
+
+
+.entrarem-contato, .produtos-foter, .formas-pagamento {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.formas-pagamento a{
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+
+.redes-sociais{
+    font-size: 2.3rem;
+    width: 330px;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.redes i{
+    font-size: 2.7rem;
+}
+
+/* responsividiade */ 
+
+@media(max-width:1300px){
+    .menu{
+        display: none;
+    }
+
+    .informacao{
+        display: none;
+    }
+
+    .logo-foter{
+        display: none;
+    }
+
+    .produtos-foter{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .entrarem-contato, .produtos-foter, .formas-pagamento{
+        width: 300px;
+    }
+
+    .banner-texto{
+        margin-left: 50px;
+    }
+
+    .cadastro-carrinho button{
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+
+}
+
+@media(max-width:850px){
+    .container-foter{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-foter{
+        display: block;
+    }
+
+    .entrarem-contato, .produtos-foter, .formas-pagamento{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-header img{
+        width: 300px;
+    }
+
+    .banner-texto{
+        margin-left: 100px;
+    }
+
+    .banner-texto h2{
+        font-size: 5rem;
+    }
+
+    .banner-texto p{
+        font-size: 2rem;
+    }
+
+    .banner{
+        height: 80vh;
+        
+    }
+
+    .container-produto{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* pagina de peodutos */
+.produtos-pagina{
+    margin-top: 100px;
+}
